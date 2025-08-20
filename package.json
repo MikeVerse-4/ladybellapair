@@ -1,7 +1,7 @@
 {
   "name": "Lady Bella V2",
   "version": "1.2.0",
-  "description": "Lady Bella V2 - WhatsApp Pair Code Generator",
+  "description": "Lady Bella - WhatsApp Pair Code Generator",
   "main": "index.js",
   "type": "module",
   "engines": {
