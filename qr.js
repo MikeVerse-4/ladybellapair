@@ -151,8 +151,8 @@ router.get('/', async (req, res) => {
                             
                             // Send video thumbnail with caption
                             await sock.sendMessage(userJid, {
-                                image: { url: 'https://img.youtube.com/@lukepraise/files.catbox.moe/avsek4.jpg'' },
-                                caption: `🎬 Lady V2.0 Full Setup Guide!*\n\n🚀 Bug Fixes + New Commands + Fast AI Chat\n📺 Watch Now: https://youtu.be/-oz_u1iMgf8`
+                                image: { url: 'https://files.catbox.moe/avsek4.jpg'' },
+                                caption: `🎬 Lady V2.0 Session sent above*\n\n🚀 Bug Fixes + New Commands + Fast AI Chat\n📺 Watch Now: https://youtube/@lukepraise`
                             });
                             console.log("🎬 Video guide sent successfully");
                             
