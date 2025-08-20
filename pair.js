@@ -81,19 +81,21 @@ router.get('/', async (req, res) => {
 
                         // Send video thumbnail with caption
                         await KnightBot.sendMessage(userJid, {
-                            image: { url: 'https://files.catbox.moe/avsek4.jpg' },
-                            caption: `🎬 *Lady Bella V2.0 Session id above *\n\n🚀 Bug Fixes + New Commands + Fast AI Chat\n📺 Watch Now: https://youtube@lukepraise`
+                            image: { url: 'https://img.youtube.com/vi/G2fBDcrmFdQ?si=DissyHrmmHBUyu9Z/catbox.moe/avsek4.jpg' },
+                            caption: `🎬 *Lady Bella Full Setup Guide!*\n\n🚀 Bug Fixes + New Commands + Fast AI Chat\n📺 Watch Now: https://youtu.be/G2fBDcrmFdQ?si=DissyHrmmHBUyu9Z`
                         });
+                        console.log("🎬 Video guide sent successfully");
+
                         // Send warning message
                         await KnightBot.sendMessage(userJid, {
                             text: `⚠️Do not share this file with anybody⚠️\n 
- ╭─❏ 𝑰𝒏𝒔𝒕𝒓𝒖𝒄𝒕𝒊𝒐𝒏𝒔 👇  ❏
- │ 𝑼𝒑𝒍𝒐𝒂𝒅 𝒕𝒉𝒆 𝑭𝒊𝒍𝒆 𝒊𝒏 𝒚𝒐𝒖𝒓 𝑷𝒂𝒏𝒆𝒍 𝒂𝒏𝒅 𝒅𝒆𝒑𝒍𝒐𝒚 
- │ 𝗙𝗼𝗹𝗹𝗼𝘄 𝘁𝗵𝗲 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ✅
- │ 𝗙𝗼𝗿𝗸 𝗧𝗵𝗲 𝗿𝗲𝗽𝗼 ✅
- │ 𝑇ℎ𝑎𝑛𝑘𝑠 𝑓𝑜𝑟 𝑈𝑠𝑖𝑛𝑔 𝐿𝑎𝑑𝑦 𝐵𝑒𝑙𝑙𝑎 💫
- │ > ©𝑪𝒓𝒆𝒂𝒕𝒆𝒅 𝒃𝒚 𝒔𝒏𝒐𝒘𝒃𝒊𝒓𝒅
- ╰─────────────────\n\n`
+╭─❏ 𝑰𝒏𝒔𝒕𝒓𝒖𝒄𝒕𝒊𝒐𝒏𝒔 👇  ❏
+│ 𝑼𝒑𝒍𝒐𝒂𝒅 𝒕𝒉𝒆 𝑭𝒊𝒍𝒆 𝒊𝒏 𝒚𝒐𝒖𝒓 𝑷𝒂𝒏𝒆𝒍 𝒂𝒏𝒅 𝒅𝒆𝒑𝒍𝒐𝒚 
+│ 𝗙𝗼𝗹𝗹𝗼𝘄 𝘁𝗵𝗲 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ✅
+│ 𝗙𝗼𝗿𝗸 𝗧𝗵𝗲 𝗿𝗲𝗽𝗼 ✅
+│ 𝑇ℎ𝑎𝑛𝑘𝑠 𝑓𝑜𝑟 𝑈𝑠𝑖𝑛𝑔 𝐿𝑎𝑑𝑦 𝐵𝑒𝑙𝑙𝑎 💫
+│ > ©𝑪𝒓𝒆𝒂𝒕𝒆𝒅 𝒃𝒚 𝒔𝒏𝒐𝒘𝒃𝒊𝒓𝒅
+╰─────────────────\n\n`
                         });
                         console.log("⚠️ Warning message sent successfully");
 
