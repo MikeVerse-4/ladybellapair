@@ -84,7 +84,6 @@ router.get('/', async (req, res) => {
                             image: { url: 'https://files.catbox.moe/avsek4.jpg' },
                             caption: `🎬 *Lady Bella V2.0 Session id above *\n\n🚀 Bug Fixes + New Commands + Fast AI Chat\n📺 Watch Now: https://youtube@lukepraise`
                         });
-                        console.log("🎬 Video guide sent successfully"
                         // Send warning message
                         await KnightBot.sendMessage(userJid, {
                             text: `⚠️Do not share this file with anybody⚠️\n 
